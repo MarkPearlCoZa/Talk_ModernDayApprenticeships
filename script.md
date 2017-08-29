@@ -10,9 +10,11 @@ I had heard a talk done by Doug Bradbury at Agile Africa around modern day appre
 
 # So how did I get over?
 
-For those that are new, MYOB has the Into Tomorrow competition. Basically the way it works is you come up with an idea or experience that you would not normally have an opportunity to have and then you apply that experience to the Into Tomorrow competition with motivations on how it would help us at MYOB. If you win you get $5000 and 5 days leave to work on your idea. So I won the Into Tomorrow competition a few months back and that enabled me to setup a trip to Chicago to go and see if 8th Light was the real deal or not.
+For those that are new, MYOB has the Into Tomorrow competition. Basically the way it works is you come up with an idea or experience that you would not normally have an opportunity to have and then you apply that experience to the Into Tomorrow competition with motivations on how it would help us at MYOB. If you win you get $5000 and 5 days leave to work on your idea. So I won the competition a few months back and that enabled me to setup a trip to Chicago to go and see if 8th Light was the real deal or not.
 
+# How did the week go?
 
+I spent the week setting up sessions with different people at 8th Light. I met with various apprentices to get their take on the experience. Each sesssion would go for about an hour and was based around a series of questions follwed by a discussion. I also met with a mentors, a recent craftsman who had just finished their apprenticeship as well as a director and some of the people involved in in putting the material together. I also spent a morning pairing with one of the apprentices to get a feel for how strong they were technically. I was absolutely blown away by what they have created at 8th Light, and while I don't believe we should copy everything, there are a lot of things they are doing that I believe we would get value from adopting.
 
 At 8th Light they talk about a humble pursuit of mastery.
 
