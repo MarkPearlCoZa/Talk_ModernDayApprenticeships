@@ -53,9 +53,9 @@ They look out for a few things:
 
 First they ask for you to write an essay on what craftmanship means to you. This causes a lot of people to drop off but really they are looking for people who are committed. If you are not committed enough to write the essay you are probably not the person they are looking for.
 
-Once they have people that have invested time writing the essay, they give them a problem to solve. Now since most of the people are not professional programmers generally the problem is challenging. A typical example would be to write a console game for a 3 x 3 tic tac toe game. You have as much time as you need to solve the problem. Speaking to the apprentices at 8th Light, many of them invested weeks or months trying to solve this. 
+Once they have people that have invested time writing the essay, they give them a problem to solve. Now since most of the people are not professional programmers generally the problem is challenging. They have found with time instead of giving someone a blank solution, they give them a partially implemented solution and ask them to fix the bugs. A typical example would be to write a console game for a 3 x 3 tic tac toe game - they provide you a basic solution with some missing parts and some bugs or errors in logic. You have as much time as you need to solve the problem. Speaking to the apprentices at 8th Light, many of them invested weeks or months trying to solve this. 
 
-Once you made your submission, they would do a detailed code review. Speaking to the apprentices they were all shocked at how much detail they go in on the submission. You are then given an opportunity to adjust your submission. What they are looking for here are people that are humble learners. If you take offense, or don't make any adjustments you are probably not what they are looking for.
+Once you made your submission, they would do a detailed code review. This is where having provided a partial solution helps since often it is easier to review. Speaking to the apprentices they were all shocked at how much detail they got back from their submission. You are then given an opportunity to adjust your submission. What they are looking for here are people that are humble learners. If you take offense, or don't make any adjustments you are probably not what they are looking for.
 If you are able to take their feedback, and leverage it to improve your submission you are typically considered a good fit and invited to come in for an in person interview. 
 
 The actual in person interview is done by potential mentors. Mentors are existing craftsmen working at 8th Light. Because the mentor / apprentice relationship is so close, they like to match up mentors with apprentices as early on as possible. Mentors actually have to want to help that specific person. Mentors at 8th Light are volunteers. There is no financial reward for it. You do it because you would like to help someone else and because you were helped in the past. Mentors invest a considerable amount of energy into their graduates during the next 6 months.
@@ -90,7 +90,61 @@ You are left to your own devices to work through your own stuff for most of the 
 
 Fridays are different at 8th Light to other days. On Fridays all the crafters typically are not at clients but rather come through to the office to spend time "learning" time and to have a meal together. Typically also the apprentices would have a 1 hour session with their mentors each week on their progress and would set clear goals for what they need to accomplish for the next week.
 
-The approach the mentors take is to start out very granular in the breakdown of work with their apprentices. And then as their apprentice becomes comfortable with the work they give it to them in bigger chunks and with less guidance. I see this as an implementation of the Dreyfus model, where if you work with a beginning you need to give recipes. So an apprentice who is very new will have a set of specific technical tasks they need to do, at some point they will progress to more general pieces of work and have to figure out the specifcs on their own.
+The approach the mentors take is to start out very granular in the breakdown of work with their apprentices. And then as their apprentice becomes comfortable with the work they give it to them in bigger chunks and with less guidance. I see this as an implementation of the Dreyfus model which is a model that is very useful for growing people, the Dreyfus model says that if you work with a beginner you need to give specific recipes on what to do. So with an apprentice who is very new you will give them a set of specific technical tasks to do in a week, as they become comfortable with doing those tasks you move it up an abstraction level to give them more general pieces of work. They do this to teach you how to work with customers. Ultimately they want you to be comfortable hearing the problems people have and be able to figure out how to solve them instead of being told what solution to do and so the next 6 months is growing their apprentices to reach this level.
+
+# What sort of problems does an apprentice work on?
+
+I really liked how 8th Light approaches this. They pick problems that have almost universal domain knowledge to start off with. Apprentices work on kata's, but kata's are often small problems that one can solve in a couple of hours. The real work they have is bigger problems. A classic one at 8th Light is the Tic Tac Toe problem. This is a problem they use for people applying to join the mentorhsip program, it is also a problem they iterate on several times during their apprenticeship because you can adjust the problem statement to learn different design principles.
+
+So an example of adusting the problem as soneome grows would be to, implement tic tac toe in a console on a 3 x 3 matrix, then refactor your code to handle a 4 by 4 matrix. 
+* Now implement it in a funcitonal lanaguage, 
+* Now implement a the engine to play against a computer. 
+* Now implement it to utilize tail call optimization and so on. 
+* Now expose the game as a service
+* Now put a web front end over it
+
+And so on, the benefit 8th Light has of having a problem like this is that everyone knows the problem, and it is complex enough that you can make it non trivial if you want but also start beginner off with is, which means most people can help apprentices and look at someones code and see where they are struggling without having to figure things out on your own.
+
+Another problem that apprentices solve closer to the end of their apprenticeship that seems to be a real hit is to build a http server from scratch. They do this because they feel once you have built a http server from scratch many of the mysteries of the internet resolved. The best analogy I can think of is once you have taken your car's engine apart and put it back together again you are probably not so scared to tinker with your car. All the apprentices also said this was the most challenging problem they had to solve.
+
+Apart from development work, there are three other areas that people focus on. Everyone at 8th Light is encouraged to blog in some form. Most put out a blog at least every few weeks. They are encouraged to put their learnings in their blog posts. They see this as a way of closing the loop for blogging. They are also encouraged to present sessions, either as lightening talks or talks. They also have some required reading.
+
+Personally this is something that I'm really passionate about, a lot of the secrets to software development is hidden in books. At 8th Light they really encourage people to read books. In fact as you walk around the office you find these book cases filled with great books. It is something I would love to see us adopt more than we have already.
+
+Now that I've gone through some of the problems they solve, let's talk about how you progress from an apprentice to a crafter.
+
+# How to progress from apprentice to crafter
+
+The process of becoming a crafter is based on competancy. As I said, there is no set time period, they expect most people to be ready to try graduate within 6 months to a year. When mentors feel an apprentice is getting close to being ready they set up a pairing tour. They identify other 6 other people they would like to be involved in the review process and the apprentice pairs/shadows them for a week or two before going into the test.
+
+The test involves a 2 week period of intensified challenges. The apprentice is given a problem at the beginning of the two weeks, they have 2 weeks to deliver an appropriate solution. At the end of the two weeks the 6 people and their two mentors get together to review their work. They present the problem they are solving, the approaches they took. Each person does a detailed review of their submission. They have a detailed conversation with the group on why they took certain approaches. All in all the meeting with the "quorum" takes a day. At the end of the quorum gets together to discuss whethere they feel the apprentice is ready.
+
+The two weeks is intense. Speaking to crafters, most of them spend 80+ hours a week to solve the problem in time. It is not trivial. I could not find out what problem they solve since nobody would talk about it. But it is seen as an achievement if you are successful.
+
+The last day I was at 8th Light they had an apprentice that had just graduated. They got the whole company together, the mentor stood up in front of the entire group and at the top of his voice welcomed their newest crafter to 8th light. I don't know if it was just an american thing, but there was real cheering and applause. It felt like this was seen as a major achievement.
+
+# Feedback along the way
+
+There are a few concerns that apprentices have around grauduation. For many of them this is the opportunity to get permanent employment. They are worried if they go to the two week period and are not ready they will loose the one chance they have. To reduce the chances of this happening they now have a 3-4 month mini review done with their mentors and 2 other people, just so that there are no surprises by the time the apprentice hits the 2 week period. 
+
+# Benefits
+
+So what were the benefits I saw at 8th Light:
+
+Firstly, they are technically competetent. Being able to take someone who has no professional programming experience and in a 6 month period grow them to the point where they are in MYOB standards really strong is amazing. I came out of the experience saying it is possible to do this.
+
+Secondly, they plugged into a market that nobody else is operating at. Most of the people working at 8th Light would never have been able to have gotten work as a professional developer anywhere else. Being able to say we can take you on even if you don't have a CS degreee opens up the field to pick the brightest talent around.
+
+Thirdly, I believe the mentorship approach resonates with me. There is something around helping someone else become awesome that is extremely fulfilling. I believe that embracing technical mentorship at MYOB would big step forward. Right now most of our mentorhsip is still manager led. Having been at 8th Light I can see how a developer can mentor a graduate, a senior developer can mentor a developer and so on.
+
+Having a program where it is clear what that there are high standards gives you a sense of pride for what you accomplis
+
+# Challenges
+
+There is a concern about how this filtering process removes some of the diversity they are looking for. One of the challenges is a program like this is great if you are single and can dedicate 80 hours a week at the end to graduate, for many people this would not be impossible - for instance if you are a single parent this would not be possible, and so they are looking at modifying this process and are considering adjusting it to be a little longer.
+
+
+
 
 It is developers who love to write software and who care about high quality code. It is way more than marketing for them. They have a lifelong learning culture.
 
