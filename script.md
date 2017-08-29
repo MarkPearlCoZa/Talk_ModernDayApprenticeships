@@ -16,6 +16,23 @@ For those that are new, MYOB has the Into Tomorrow competition. Basically the wa
 
 I spent the week setting up sessions with different people at 8th Light. I met with various apprentices to get their take on the experience. Each sesssion would go for about an hour and was based around a series of questions follwed by a discussion. I also met with a mentors, a recent craftsman who had just finished their apprenticeship as well as a director and some of the people involved in in putting the material together. I also spent a morning pairing with one of the apprentices to get a feel for how strong they were technically. I was absolutely blown away by what they have created at 8th Light, and while I don't believe we should copy everything, there are a lot of things they are doing that I believe we would get value from adopting.
 
+# Why apprenticeships?
+
+So let's start with why 8th Light is doing apprenticeships and what they mean by apprenticeship. 
+
+8th Light has 3 apprenticeship categories although they really only seem to use 2 out of the 3, 
+
+A learner apprentice, a resident apprentice and a journeyman apprentice.
+
+A learner apprentice is someone who will spend 3 months with a co-mentor learning to code. The apprentice supports themself financially during this time and there is no commitment of employment post the 3 months. This is usually applicable for people who just want to learn more about being a software developer.
+
+A resident apprentice, this is someone with little or no profressional programming experience. They will spend anywhere from 5 months to a year working through 8th Lights apprenticeship program. 8th Light pays them to go through the program, although the payment is just enough to cover your expenses. The aim of the resident apprentice is for them to get to a point where they can graduate, if they are successful they are offered permanent employment at 8th Light as a software craftsman.
+
+A journeyman apprentice, this is someone who has programmed professionally before. They will spend about 3-4 months working their way through the material. Very little was spoken about journeyman apprentices because most of 8th Lights apprentices are learner or resident apprentices. They have found the risk of bringing on journeyman apprentices is fairly high, I think it may be because it is easier teaching a blank slate than someone who already has formed opinions about things.
+
+I need to stress this is my own interpretation of why they are doing it, this was not explicityly spoken about with anyone. 
+
+
 At 8th Light they talk about a humble pursuit of mastery.
 
 
