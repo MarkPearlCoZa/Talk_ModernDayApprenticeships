@@ -131,21 +131,20 @@ There are a few concerns that apprentices have around grauduation. For many of t
 
 So what were the benefits I saw at 8th Light:
 
-Firstly, they are technically competetent. Being able to take someone who has no professional programming experience and in a 6 month period grow them to the point where they are in MYOB standards really strong is amazing. I came out of the experience saying it is possible to do this.
+Firstly, being able to take someone who has no professional programming experience and in about a 6 month period being able to grow them to the point where they are at the level they are is amazing. I came out of the experience saying it is possible to do this. 
 
-Secondly, they plugged into a market that nobody else is operating at. Most of the people working at 8th Light would never have been able to have gotten work as a professional developer anywhere else. Being able to say we can take you on even if you don't have a CS degreee opens up the field to pick the brightest talent around.
+Secondly, as an organization 8th Light has plugged into a market for developers that nobody else is tapping. Most of the people working at 8th Light would never have been able to get work as a professional developer anywhere else because they simply did not have the experience. As an organization, being able to say we can take you because you have the right mindset, even if you currently don't the technical expertise, allows you to focus on putting people first.
 
-Thirdly, I believe the mentorship approach resonates with me. There is something around helping someone else become awesome that is extremely fulfilling. I believe that embracing technical mentorship at MYOB would big step forward. Right now most of our mentorhsip is still manager led. Having been at 8th Light I can see how a developer can mentor a graduate, a senior developer can mentor a developer and so on.
-
-Having a program where it is clear what that there are high standards gives you a sense of pride for what you accomplis
+Thirdly, having seen technical mentorship in action I see what an impact this has. There is something about helping someone else become awesome that is extremely fulfilling. I believe that embracing technical mentorship at MYOB would be a big step forward for us. Growing technical skills should not just be a conversation that you have with your dev lead. 
 
 # Challenges
 
-There is a concern about how this filtering process removes some of the diversity they are looking for. One of the challenges is a program like this is great if you are single and can dedicate 80 hours a week at the end to graduate, for many people this would not be impossible - for instance if you are a single parent this would not be possible, and so they are looking at modifying this process and are considering adjusting it to be a little longer.
+Now let's talk about some of the challenges you could face. 
 
+There is a concern about how these various filters removes some of the diversity that other companies would have. For instance, having to work 160 hours over a two week period may make it hard for certain people to work their way through the program. It may not be an option you are single parent.
 
+What's you career path after you become a crafter? 8th Light has a clear vision of reaching the level of crafter, but it isn't so clear after that. I know they are aware of this
 
-
-It is developers who love to write software and who care about high quality code. It is way more than marketing for them. They have a lifelong learning culture.
+# In closing
 
 Apprenticeship program gives them a shared set of virtues and principles. It's a way for them to scale without loosing what makes 8th Light 8th Light.
